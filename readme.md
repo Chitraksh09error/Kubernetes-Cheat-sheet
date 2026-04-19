@@ -1,11 +1,7 @@
 # KUBERNETES-COMMANDS
 
-```bash
-# Clone Repo
-git clone <your-repo-url>
-cd <your-project-folder>
 
-# Start Minikube
+## Start Minikube
 ```bash
 minikube start --driver=docker
 ```
