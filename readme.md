@@ -6,21 +6,31 @@
 minikube start --driver=docker
 ```
 
-# Stop Minikube
+## Stop Minikube
+```bash
 minikube stop
+```
 
-# Delete Minikube
+## Delete Minikube
+```bash
 minikube delete
+```
 
 # Check Contexts
+```bash
 kubectl config get-contexts
+```
 
-# Switch to Minikube
+
+## Switch to Minikube
+```bash
 kubectl config use-context minikube
+```
 
-# Switch to Docker Desktop
+## Switch to Docker Desktop
+```bash
 kubectl config use-context docker-desktop
-
+```
 # Current Context
 kubectl config current-context
 
