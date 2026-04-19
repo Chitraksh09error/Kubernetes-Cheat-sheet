@@ -6,7 +6,9 @@ git clone <your-repo-url>
 cd <your-project-folder>
 
 # Start Minikube
+```bash
 minikube start --driver=docker
+```
 
 # Stop Minikube
 minikube stop
